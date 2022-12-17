@@ -17,15 +17,15 @@ public class Assignment4 {
 //	driver.manage().window().maximize();
 	System.out.println(driver.manage().window().getSize());
 	
-	int x = 1000;
-	int y = 500;
-	while ((x<1552) && (y < 832)) {
-		
-		driver.manage().window().setSize(new Dimension(x, y));
-		
-		x = x +1;
-		y = y +1;
-	}
+//	int x = 1000;
+//	int y = 500;
+//	while ((x<1552) && (y < 832)) {
+//		
+//		driver.manage().window().setSize(new Dimension(x, y));
+//		
+//		x = x +1;
+//		y = y +1;
+//	}
 
 	
 	}
